@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <!--网页自动跳转-->
+    <!--<meta http-equiv="refresh" content="2;URL=http://www.baidu.com">-->
+    <!--网页编码-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--网页关键字，用于被搜索-->
+    <meta name="keywords" content="网页设计,网站前端">
+    <!--网页描述-->
+    <meta name="description" content="网页详细描述">
+    <!--网页作者-->
+    <meta name="author" content="qylk">
+    <title>这是网页标题</title>
+</head>
+<h1>一级标题</h1>
+
+<h2>二级标题</h2>
+
+<h3>三级标题</h3>
+
+<font size="7" color="#a52a2a">文字大小颜色控制</font>
+<br/>
+<strong>文字加粗</strong>
+<em>斜体文字</em>
+<i>斜体文字</i>
+<a href="http://baike.baidu.com/view/262.htm"><cite>超链接引用</cite></a>
+<!--段落-->
+<p align="left">
+    <!--水平直线-->
+<hr size="1 px" width="50%" noshade="noshade"/>
+<!--块引用-->
+<blockquote cite="http://www.baidu.com">
+    This is a long quotation. This is a long quotation. This is a long quotation. This is a long quotation. This is a
+    long quotation.
+    请注意，浏览器在 blockquote 元素前后添加了换行，并增加了外边距。
+</blockquote>
+<!--短引用-->
+鲁迅说过：<q>世上本没有路，走的人多了，也就成了路</q>
+<br/>
+<!--定义缩写-->
+万维网的英文缩写是：<acronym title="world wide web">www</acronym>
+<!--预格式化文本，保留文本格式-->
+<pre>
+      静夜思
+    床前明月光，
+    疑是地上霜。
+    举头望明月，
+    低头思故乡。
+</pre>
+
+<pre>
+<!--特殊字符-->
+    空格：     &nbsp;
+    版权号： &copy;
+    商标： &reg;
+    引号：     &quot;
+    与号：     &amp;
+    小于号：   &lt;
+    大于号：   &gt;
+</pre>
+
+<!--无序列表-->
+<ul type="square">
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+</ul>
+
+<!--有序列表-->
+<ol type="a">
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+</ol>
+
+<!--定义列表-->
+<dl>
+    <dt>item1
+    <dt/>
+    <dd>item1.1</dd>
+    <dd>item1.2</dd>
+    <dt>item2
+    <dt/>
+    <dd>item2.1</dd>
+    <dd>item2.2</dd>
+</dl>
+
+<!--表格-->
+<table border="0" width="20%" bordercolor="black" cellpadding="5" frame="box" rules="all">
+    <caption>表格标题</caption>
+    <colgroup bgcolor="red" span="1"></colgroup>
+    <thead>
+    <tr>
+        <th>语文</th>
+        <th>数学</th>
+        <th>外语</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>90</td>
+        <td>90</td>
+        <td>90</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <td colspan="3" align="center">270</td>
+    </tfoot>
+</table>
+
+
+<!--图片-->
+<img src="../pic/logo.png" alt="图片丢失" title="百度logo"/><br/>
+
+<!--超级链接-->
+<a href="http://www.baidu.com" target="_blank" title="百度">百度链接</a>
+
+</p>
+
+
+<p>
+    <!--表单-->
+<fieldset>
+    <legend>表单</legend>
+    <form action="action" method="post">
+        <label for="user">User:</label>
+        <input id="user" name="user" type="text"/>
+        <label for="pwd">Password:</label>
+        <input id="pwd" name="pwd" type="password"/>
+
+        <input id="male" name="sex" type="radio" value="male" checked="true"/>
+        <label for="male">Male</label>
+        <input id="female" name="sex" type="radio" value="female"/>
+        <label for="female">Female</label>
+
+
+        <label for="city">城市:</label>
+        <select name="city" id="city">
+            <option value="1" selected="selected">北京</option>
+            <option value="2">上海</option>
+            <option value="3">广州</option>
+        </select>
+
+        <input type="file" name="logo" value="select file"/>
+        <input type="hidden" name="pc" value="mac"/>
+
+        <input id="remember" type="checkbox" value="remember"/>
+        <label for="remember">记住我</label>
+
+        <input type="submit" value="Submit"/>
+        <input type="reset" value="reset"/>
+    </form>
+</fieldset>
+</p>
+
+<p>
+    <marquee direction="right"
+             behavior="alternate"
+             loop="infinite"
+             scrolldelay="200">
+        QYLK2015
+    </marquee>
+</p>
+</body>
+</html>
